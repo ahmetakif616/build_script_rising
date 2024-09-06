@@ -14,14 +14,13 @@ echo "======= Local Manifest Clone Done ======"
 /opt/crave/resync.sh
 echo "======= Sync Done ======"
 
-# cherry pick1
+# cherry picks - For fixing error1
 cd hardware/interfaces
 git remote add bliss https://github.com/BlissRoms/platform_hardware_interfaces
 git fetch bliss
 git cherry-pick bbb2b5846645749fe3b778c1e50ac55378fd6235
 cd ../..
 
-# cherry pick2
 https://github.com/BlissRoms/platform_manifest/blob/universe/bliss.xml#L73C18-L73C32
 cd kernel/configs
 git remote add bliss1 https://github.com/BlissRoms/platform_kernel_configs
