@@ -40,7 +40,7 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 # Lunch
-riseup mi439 userdebug
+riseup mi439 user
 echo "======= Build Starting ======"
 
 # Build rom
